@@ -1,13 +1,9 @@
 package com.example.week5springhwk.dto;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.Data;
 
-@Getter
-@NoArgsConstructor
-@AllArgsConstructor
+@Data
 public class RestaurantDto {
     private String name;
     private int minOrderPrice;
